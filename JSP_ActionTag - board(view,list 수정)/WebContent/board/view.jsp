@@ -129,7 +129,8 @@
 		if(b_userid.equals((String)session.getAttribute("userid"))){
 		
 %>
-		<input type="button" value="삭제" onclick="location.href='reply_del.jsp?re_idx=<%=arr.getReidx()%>'">
+	
+		<input type="button" value="삭제" onclick="location.href='reply_del.jsp?re_idx=<%=arr.getReidx()%>&b_idx=<%=b_idx%>'">
 		
 <%
 	
